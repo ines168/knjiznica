@@ -12,7 +12,7 @@ public class Knjiga implements PosudbaKnjige, Comparable<Knjiga>{
     @Override
     public void posudiKnjigu() {
         if (!jePosudena) {
-            System.out.println(naslov + " je posuđena!");
+            System.out.println("Posuđuješ " + naslov + "!");
             jePosudena = true;
         } else {
             System.out.println(naslov + " je već posuđena! Pokušaj s drugim naslovom!");
@@ -23,7 +23,7 @@ public class Knjiga implements PosudbaKnjige, Comparable<Knjiga>{
     @Override
     public void vratiKnjigu() {
         if (jePosudena) {
-            System.out.println(naslov + " je vraćena!");
+            System.out.println("Vraćaš " + naslov + "!");
             jePosudena = false;
         } else {
             System.out.println(naslov + " je već u knjižnici! Provjeri svoj naslov!");
