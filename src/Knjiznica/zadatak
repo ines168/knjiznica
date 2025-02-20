@@ -1,0 +1,23 @@
+Sustav upravljanja knjižnicom
+
+Napravite jednostavan sustav knjižnice gdje:
+
+Definirate vlastito sučelje pod nazivom "PosudbaKnjige", koje sadrži metode za posuđivanje i vraćanje knjige.
+Implementirate ovo sučelje u klasi Knjiga.
+Klasa Knjiga također treba implementirati ugrađeno Java sučelje Comparable<Knjiga>, kako bi se knjige mogle sortirati po naslovu.
+U main metodi kreirajte popis knjiga, posudite/vratite knjigu i sortirajte ih.
+Zahtjevi:
+* Definirajte sučelje PosudbaKnjige s metodama:
+void posudiKnjigu();
+void vratiKnjigu();
+
+* Implementirajte ovo sučelje u klasi Knjiga s:
+
+Atributima: naslov knjige i status dostupnosti (jePosudjena).
+Metodom compareTo() za sortiranje knjiga abecedno po naslovu.
+
+* U main metodi:
+
+Kreirajte popis knjiga.
+Posudite i vratite knjigu.
+Sortirajte knjige abecedno i prikažite ih.
